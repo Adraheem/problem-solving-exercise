@@ -4,7 +4,6 @@ import java.util.Collection;
 
 public class LinkedList<T> {
     private Node<T> head;
-    private Collection<Node<T>> collection;
 
     public void add(T data) {
         Node<T> newNode = new Node<>();
